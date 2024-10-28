@@ -19,7 +19,7 @@
 
 ## Conclusions
 - A linear regression model with a training accuracy of 90.2% and a test accuracy of 86.6% was built.
-- The important features selected for the model using the RFE techinique as well as manual is : Casual, year, workingday, season, Feeling Temperature and WeatherSit
+- The important features selected for the model using the RFE techinique as well as manual are : Casual, year, workingday, season, Feeling Temperature and WeatherSit
 - There are variables providing the same information. In order to reduce multi-collinearity, only one of them need to be kept. Example temp and atemp. 
 - The formula as per the model is
   Demand(cnt) = 4505.2671  +  692.3536(workingday)  +  426.8082(atemp)  +  1063.4212(casual) +  235.8335(season_summer)  +  279.4398(season_fall)  +  543.4504(season_winter) -  177.3723(weatersit_Misty) -  291.2680(weather_LightSnowRain)  +  792.8863(yr)
