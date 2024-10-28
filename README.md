@@ -28,12 +28,13 @@
 
 
 ## Technologies Used
-Python 3.12.5
-Numpy 2.0.1
-Pandas 2.2.2
-matplotlib 3.9.2
-seaborn 0.13.2
-Linear Regression 
+- Python 3.12.5
+- Numpy 2.0.1
+- Pandas 2.2.2
+- matplotlib 3.9.2
+- seaborn 0.13.2
+- SKLearn - 1.2.1
+- Stats Model - 0.13.5  
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
