@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+> A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. Hence it is taking the help of a consulting company to understand the factors on which the demand for these shared bikes depends. The bike sharing demand in American market for 2 years is used. A linear regression model was built using this dataset provided.
 
 
 ## Table of Contents
@@ -11,38 +11,38 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Data collected for the years: 2018 and 2019.
+- Information related to weather situation, temperature and feeling temperature(in Celsius), Humidity, windspeed is available along with the dates and demand
+- Details on the day on whether it's a working day or holiday and which day of the week and month is available.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- A linear regression model with a training accuracy of 90.2% and a test accuracy of 86.6% was built.
+- The important features selected for the model using the RFE techinique as well as manual is : Casual, year, workingday, season, Feeling Temperature and WeatherSit
+- There are variables providing the same information. In order to reduce multi-collinearity, only one of them need to be kept. Example temp and atemp. 
+- The formula as per the model is
+  Demand(cnt) = 4505.2671  +  692.3536(workingday)  +  426.8082(atemp)  +  1063.4212(casual) +  235.8335(season_summer)  +  279.4398(season_fall)  +  543.4504(season_winter) -  177.3723(weatersit_Misty) -  291.2680(weather_LightSnowRain)  +  792.8863(yr)
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+Python 3.12.5
+Numpy 2.0.1
+Pandas 2.2.2
+matplotlib 3.9.2
+seaborn 0.13.2
+Linear Regression 
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- This project was authored by Anu Thomas
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@AnuThomas2000] - feel free to contact me!
 
 
 <!-- Optional -->
